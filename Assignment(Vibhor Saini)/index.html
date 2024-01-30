@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body>
+    <h1>Javascript Assignment Answers</h1>
+    <h3>Q.4  Difference btw Var , Let and const</h3>
+    <p> <span><h2>Var</h2></span>
+        1.var: Var has function scope. If a variable is declared inside a function using var,
+         it is only accessible within that function. 
+         <br>
+        2.var: Hoists the variable declaration to the top of its scope, but the initialization remains in its original position.
+         This means you can use the variable before it is declared without causing an error.
+        <br>
+        3.var allow reassignment. You can change the value of a variable declared with var.
+        <br>
+        4.When declared outside any function, becomes a property of the global object.
+        (e.g., window in a browser environment).</p>
+
+        <p> <span><h2>let and const</h2></span> 
+            1.let and const: Have block scope. 
+            They are limited to the block in which they are defined, such as loops or if statements.
+            <br>
+            2.let and const: Also hoist, but unlike var, they are not initialized until the interpreter reaches the actual declaration in the code.
+            Trying to use the variable before the declaration results in a ReferenceError.
+            <br>
+            3. let allow reassignment. You can change the value of a variable declared with let. but const Does not allow reassignment after initialization.
+             Once a value is assigned to a const variable, it cannot be changed.
+             <br>
+             4. let and const: Do not become properties of the global object when declared outside any function.
+ 
+        </p>
+       
+</body>
+<script src="Question1.js"></script>
+<!-- <script src="Question2.js"></script> -->
+<!-- <script src="Question3.js"></script> -->
+<!-- <script src="Question4.js"></script> -->
+<!-- <script src="Question5.js"></script> -->
+</html>
